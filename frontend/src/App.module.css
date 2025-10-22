@@ -1,0 +1,6 @@
+.appContainer { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 20px; }
+.header h1 { margin: 0; color: #333; }
+.primaryButton { background-color: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background-color 0.2s; }
+.primaryButton:hover { background-color: #0056b3; }
+.error { color: red; text-align: center; font-size: 1.2em; }

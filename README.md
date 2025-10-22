@@ -76,10 +76,8 @@ property-app/
 
 
 Then open:
-👉 http://localhost:3000
+👉 http://localhost:5173/
  (React app)
-👉 http://localhost:5000/api/properties
- (Mock API)
 
 👨‍💻 Author
 Aftab Shekh

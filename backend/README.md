@@ -85,20 +85,6 @@ property-app/
 ├── package.json
 └── README.md
 
-🧠 How to Run the Project
-Step 1: Clone the Repository
-git clone https://github.com/yourusername/property-app.git
-cd property-app
-
-Step 2: Install Dependencies
-npm install
-
-Step 3: Start the React App
-npm start
-
-Step 4: Start Mock Server (if using json-server)
-npx json-server --watch db.json --port 5000
-
 👨‍💻 <<---Author-->>
 Aftab Shekh
 💼 MERN Stack Developer | Passionate about Frontend + Backend integration

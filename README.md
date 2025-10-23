@@ -74,10 +74,9 @@ property-app/
 ├── package.json
 └── README.md
 
-
-Then open:
-👉 http://localhost:5173/
- (React app)
+# Property Project
+This is a property listing project built with React + Vite.
+🔗 Live Demo: [https://property-project01.vercel.app](https://property-project01.vercel.app)
 
 👨‍💻 Author
 Aftab Shekh

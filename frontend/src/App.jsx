@@ -7,12 +7,13 @@ import PropertyModal from './components/PropertyModal';
 import Modal from './components/Modal';
 import styles from './App.module.css';
 
-// IMPORTANT: Point to your new backend
-const API_URL = 'http://localhost:5000/api/properties';
+// IMPORTANT: This now reads from your Vercel/Vite environment variables
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [properties, setProperties] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  // ... (rest of your file is identical) ...
   const [filterType, setFilterType] = useState('All');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -23,7 +24,7 @@ function App() {
   const fetchProperties = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(API_URL);
+      const response = await axios.get(API_URL); // This now uses the VITE_API_URL
       setProperties(response.data);
       setError(null);
     } catch (err) {
@@ -40,7 +41,7 @@ function App() {
 
   const handleAddProperty = async (newProperty) => {
     try {
-      await axios.post(API_URL, newProperty);
+      await axios.post(API_URL, newProperty); // This now uses the VITE_API_URL
       fetchProperties(); // Re-fetch
       setIsAddModalOpen(false);
     } catch (err) {
@@ -52,7 +53,7 @@ function App() {
   const handleDeleteProperty = async (id) => {
     if (window.confirm('Are you sure you want to delete this property?')) {
       try {
-        await axios.delete(`${API_URL}/${id}`);
+        await axios.delete(`${API_URL}/${id}`); // This now uses the VITE_API_URL
         fetchProperties(); // Re-fetch
       } catch (err) {
         console.error('Failed to delete property:', err);

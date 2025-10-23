@@ -79,7 +79,7 @@ property-app/
 Here's what the project looks like:
 ![Home Page](screenshots/home-page.png)
 ![Add Property Modal](screenshots/add-modal.png)
-![View Property Modal](screenshot/view-property.png)
+![View Property Modal](screenshots/view-property.png)
 
 ## ✨ Features
 * **View** a list of all properties.

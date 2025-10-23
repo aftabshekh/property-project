@@ -76,7 +76,8 @@ property-app/
 
 # Property Project
 This is a property listing project built with React + Vite.
-🔗 Live Demo: [https://property-project01.vercel.app](https://property-project01.vercel.app)
+#Live Demo
+Check out the live project here: [https://property-project01.vercel.app](https://property-project01.vercel.app)
 
 👨‍💻 Author
 Aftab Shekh

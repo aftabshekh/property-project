@@ -73,6 +73,22 @@ property-app/
 │
 ├── package.json
 └── README.md
+## Screenshots
+
+Here's what the project looks like:
+
+![Home Page](screenshots/home-page.png)
+![Add Property Modal](screenshots/add-modal.png)
+![View Property Modal](screenshot/view-property.png)
+
+## ✨ Features
+* **View** a list of all properties.
+* **Add** new properties using a modal form.
+* **Delete** properties from the list.
+* **Filter** properties by type (e.g., 'House', 'Apartment').
+* **Search** for properties by name or location.
+* **View** more details about a property in a modal.
+
 
 # Property Project
 This is a property listing project built with React + Vite.

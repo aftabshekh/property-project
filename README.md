@@ -73,10 +73,10 @@ property-app/
 │
 ├── package.json
 └── README.md
+
+
 ## Screenshots
-
 Here's what the project looks like:
-
 ![Home Page](screenshots/home-page.png)
 ![Add Property Modal](screenshots/add-modal.png)
 ![View Property Modal](screenshot/view-property.png)
